@@ -1,0 +1,7 @@
+hosts: ["registry-v3-poc.gremlin.cosmosdb.azure.com"]
+port: 443
+username: "/dbs/objects/colls/environment"
+password: "a1BhyYYJQ82AfyLNbv2ZXPPSE9an12ZqIK0L2smH2YTkBrrFe5OId2MfMgnV20Thpdd6vr5ZbiO0cK4BuJZ6Eg=="
+connectionPool: {
+  enableSsl: true}
+serializer: { className: org.apache.tinkerpop.gremlin.driver.ser.GraphSONMessageSerializerV2d0, config: { serializeResultToString: true }}
